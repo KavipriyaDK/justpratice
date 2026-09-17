@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/student-management-project-2.git'
+                    url: 'https://github.com/KavipriyaDK/justpratice.git'
             }
         }
 
